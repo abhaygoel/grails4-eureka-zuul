@@ -1,0 +1,5 @@
+//rootProject.name = 'multiproject'
+include 'bookStoreService'
+include 'catalogService'
+include 'eurekaServerSpringBoot'
+include 'zuulProxySpringBoot'
