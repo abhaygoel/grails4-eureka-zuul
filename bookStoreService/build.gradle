@@ -87,7 +87,8 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.14.0"
     // ----------
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-    //compile "org.springframework.cloud:spring-cloud-starter-eureka"
+    compile 'org.grails.plugins:spring-security-core:4.0.3'
+    compile "org.grails.plugins:spring-security-rest:3.0.1"
 }
 
 bootRun {
