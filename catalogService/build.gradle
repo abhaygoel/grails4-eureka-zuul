@@ -88,6 +88,8 @@ dependencies {
     // ----------
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     compile "io.micronaut:micronaut-http-client"
+    compile 'org.grails.plugins:spring-security-core:4.0.3'
+    compile "org.grails.plugins:spring-security-rest:3.0.1"
 }
 
 bootRun {

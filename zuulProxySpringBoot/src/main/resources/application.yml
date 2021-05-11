@@ -22,6 +22,7 @@ eureka:
       instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
 
 zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
   routes:
     book-store: /book-store/**
     catalog: /catalog/**
